@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phim Lẻ - Phim Mới</title>
+  <link rel="stylesheet" href="phim-le.css">
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <a href="http://127.0.0.1:5500/phimmoi/index.html"><img src="./images/logo.svg" alt="Logo Phim Mới"></a>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="http://127.0.0.1:5500/phimmoi/index.html">Trang Chủ</a></li>
+        <li><a href="">Phim Lẻ</a></li>
+        <li><a href="#">Phim Bộ</a></li>
+        <li><a href="#">TV Show</a></li>
+        <li><a href="#">Anime</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Tìm kiếm phim..." />
+      <button>Tìm Kiếm</button>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Phim Lẻ Mới Nhất</h1>
+      <p>Thưởng thức những bộ phim lẻ mới nhất và hot nhất tại đây!</p>
+      <a href="#movies" class="btn">Xem Ngay</a>
+    </div>
+  </section>
+
+  <!-- Danh Sách Phim Lẻ -->
+  <main class="movies" id="movies">
+    <h2 class="section-title">Danh Sách Phim Lẻ</h2>
+    <div class="movie-grid">
+      <!-- Phim 1 -->
+      <div class="movie-item">
+        <img src="./images/movie-1.png" alt="Movie 1">
+        <div class="movie-info">
+          <h3>Avengers: Endgame</h3>
+          <p>Thời lượng: 181 phút</p>
+          <p>Thể loại: Hành động, Viễn tưởng</p>
+          <a href="#" class="watch-btn">Xem Phim</a>
+        </div>
+      </div>
+      <!-- Phim 2 -->
+      <div class="movie-item">
+        <img src="./images/movie-6.png" alt="Movie 2">
+        <div class="movie-info">
+          <h3>Joker</h3>
+          <p>Thời lượng: 122 phút</p>
+          <p>Thể loại: Tâm lý, Kịch tính</p>
+          <a href="#" class="watch-btn">Xem Phim</a>
+        </div>
+      </div>
+      <!-- Phim 3 -->
+      <div class="movie-item">
+        <img src="./images/movie-7.png" alt="Movie 3">
+        <div class="movie-info">
+          <h3>Parasite</h3>
+          <p>Thời lượng: 132 phút</p>
+          <p>Thể loại: Kịch tính, Hài hước</p>
+          <a href="#" class="watch-btn">Xem Phim</a>
+        </div>
+      </div>
+      <!-- Phim 4 -->
+      <div class="movie-item">
+        <img src="./images/movie-3.png" alt="Movie 4">
+        <div class="movie-info">
+          <h3>Frozen II</h3>
+          <p>Thời lượng: 103 phút</p>
+          <p>Thể loại: Hoạt hình, Phiêu lưu</p>
+          <a href="#" class="watch-btn">Xem Phim</a>
+        </div>
+      </div>
+   
+
+    <div class="movie-item">
+      <img src="./images/movie-4.png" alt="Movie 2">
+      <div class="movie-info">
+        <h3>Joker</h3>
+        <p>Thời lượng: 122 phút</p>
+        <p>Thể loại: Tâm lý, Kịch tính</p>
+        <a href="#" class="watch-btn">Xem Phim</a>
+      </div>
+    </div>
+
+    <div class="movie-item">
+      <img src="./images/movie-2.png" alt="Movie 2">
+      <div class="movie-info">
+        <h3>Joker</h3>
+        <p>Thời lượng: 122 phút</p>
+        <p>Thể loại: Tâm lý, Kịch tính</p>
+        <a href="#" class="watch-btn">Xem Phim</a>
+      </div>
+    </div>
+
+    <div class="movie-item">
+      <img src="./images/movie-8.png" alt="Tenet">
+      <div class="movie-info">
+        <h3>Tenet</h3>
+        <p>Thời lượng: 150 phút</p>
+        <p>Thể loại: Hành động, Giật gân</p>
+        <a href="#" class="watch-btn">Xem Phim</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Phim Mới. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
+<!-- Bộ lọc -->
+<ul class="filter-list">
+  <li>
+    <button class="filter-btn" data-filter="all">All</button>
+  </li>
+  <li>
+    <button class="filter-btn" data-filter="movies">Movies</button>
+  </li>
+  <li>
+    <button class="filter-btn" data-filter="tv-shows">TV Shows</button>
+  </li>
+  <li>
+    <button class="filter-btn" data-filter="anime">Anime</button>
+  </li>
+</ul>
+
+<!-- Danh sách phim -->
+<div class="movie-list">
+  <div class="movie-item" data-category="movies">Movie 1</div>
+  <div class="movie-item" data-category="tv-shows">TV Show 1</div>
+  <div class="movie-item" data-category="anime">Anime 1</div>
+  <div class="movie-item" data-category="movies">Movie 2</div>
+  <div class="movie-item" data-category="tv-shows">TV Show 2</div>
+  <div class="movie-item" data-category="anime">Anime 2</div>
+</div>
